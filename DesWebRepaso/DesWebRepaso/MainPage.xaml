@@ -4,9 +4,12 @@
              x:Class="DesWebRepaso.MainPage">
 
     <StackLayout>
-        <Label Text="Hola Mundo, mi app de Mario" FontSize="25" TextColor="#eb2d1c"></Label>
+        <Label Text="Hola soy Mario" x:Name="etiqueta1" FontSize="25" TextColor="#eb2d1c"></Label>
+        <Image x:Name="imagen1" Source="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_600/ncom/en_US/games/switch/n/new-super-mario-bros-u-deluxe-switch/description-image" ></Image>
+        <Button Text="Luigi" Clicked="FuncionLuigi"  ></Button>
+        <Button Text="Mario" Clicked="FuncioMario"  ></Button>
 
-        <Image Source="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_600/ncom/en_US/games/switch/n/new-super-mario-bros-u-deluxe-switch/description-image" ></Image>
+
     </StackLayout>
 
 </ContentPage>
