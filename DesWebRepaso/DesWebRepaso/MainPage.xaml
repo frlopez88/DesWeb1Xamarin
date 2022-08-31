@@ -4,11 +4,21 @@
              x:Class="DesWebRepaso.MainPage">
 
     <StackLayout>
+        
+
+        <Entry x:Name="nombre_form" Placeholder="Ingrese Nombre" Keyboard="Text" ></Entry>
+        <Entry x:Name="telefono_form" Placeholder="Ingrese Telefono" Keyboard="Telephone"></Entry>
+        <Entry x:Name="edad_form" Placeholder="Ingrese Edad" Keyboard="Numeric" ></Entry>
+        <Entry x:Name="pass_form" Placeholder="Ingrese Contraseña" Keyboard="Text" IsPassword="True" ></Entry>
+
+        <Button Text="Enviar Datos" Clicked="FuncionCrearPersona"></Button>
+
+        <Label Text="Resultado de Persona ..." FontSize="15" x:Name="Resultado" ></Label>
+
         <Label Text="Hola soy Mario" x:Name="etiqueta1" FontSize="25" TextColor="#eb2d1c"></Label>
         <Image x:Name="imagen1" Source="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_600/ncom/en_US/games/switch/n/new-super-mario-bros-u-deluxe-switch/description-image" ></Image>
         <Button Text="Luigi" Clicked="FuncionLuigi"  ></Button>
         <Button Text="Mario" Clicked="FuncioMario"  ></Button>
-
 
     </StackLayout>
 
